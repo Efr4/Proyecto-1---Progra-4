@@ -1,0 +1,59 @@
+* {box-sizing: border-box}
+body{
+    background-color: #EF3B3A;
+}
+
+#text, #password, #Cpassword {
+    width: 100%;
+    padding: 0.5625em;
+    margin: 0.15625em 0.6875em 0.6875em 0.15625em;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+#text:focus, #password:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 1.5625em;
+}
+
+button {
+    background: red;
+    color: white;
+    padding: 0.875em 1.25em;
+    margin: 0.5em 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.container {
+    padding: 1em;
+    background: antiquewhite;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 18.75em) {
+    .signupbtn {
+        width: 100%;
+    }
+}

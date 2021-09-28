@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cuenta</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+</head>
+<body>
+<form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+        <h1>Registro</h1>
+        <p>Cree una cuenta</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input id="text" type="text" placeholder="Ingrese un email" name="email" required>
+
+        <label for="psw"><b>Contraseña</b></label>
+        <input  id="password" type="password" placeholder="Ingrese una contraseña" name="psw" required>
+
+        <label for="psw-repeat"><b>Confirme la contraseña</b></label>
+        <input id="Cpassword" type="password" placeholder="Confirmar contraseña" name="psw-repeat" required>
+
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Recuerdame
+        </label>
+        <div class="clearfix">
+            <button type="submit" class="signupbtn">Registrarse</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
